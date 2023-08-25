@@ -1,0 +1,46 @@
+{
+  "data": [
+    {
+      "name": "Apollo Active",
+      "img": "https://www.linkpicture.com/q/apollo-active.jpg",
+      "description": " An advanced online class management system that enables teachers to create and oversee scheduled sessions for remote teaching. The platform seamlessly handles time zone differences, sends session notifications via Slack webhooks, and generates detailed teacher schedule reports.",
+      "languages": ["Angular", ".NET", "Stored procedure", "Webhooks"],
+      "url": "https://active.apollo.edu.vn/"
+    },
+    {
+      "name": "User Management System",
+      "img": "https://www.linkpicture.com/q/vtpweb.png",
+      "description": "This is just my hobby project, but I applied many skills I have learned to implement it (admin:1q2w3E*)",
+      "languages": ["Angular", ".NET", "CI/CD", "Cloud hosting", "DDD"],
+      "url": "https://vtpdemo.azurewebsites.net/"
+    },
+    {
+      "name": "Apollo Ticket",
+      "img": "https://www.linkpicture.com/q/apollo.png",
+      "description": "An internal support system that empowers employees to create tickets for assistance from back-office personnel. The platform streamlines communication and issue resolution between various departments, fostering a more efficient and collaborative work environment.",
+      "languages": ["Angular", ".NET", "Stored procedure"],
+      "url": ""
+    },
+    {
+      "name": "Koffeeaddicted",
+      "img": "https://www.linkpicture.com/q/koffeeaddicted.png",
+      "description": "Koffee Addicted is a introduction about web developer team, who have passion in technology and new challenger. Creating, maintaining and optimizing is the key values of the team.",
+      "languages": ["Remix", "Tailwind"],
+      "url": "https://koffeeaddicted.com/"
+    },
+    {
+      "name": "SharkLien website",
+      "img": "https://www.linkpicture.com/q/sharklien.png",
+      "description": "sharklien is a personal website. sharklien is used for introduce the lifestyle of individual, business ecosystem, charity activities and orientation to inspire the community.",
+      "languages": ["ReactJs", "Bootstrap"],
+      "url": "https://sharklien.vn/"
+    },
+    {
+      "name": "koffeeaddicted.com",
+      "img": "https://www.linkpicture.com/q/koffeeaddicted.png",
+      "description": "Koffee Addicted is a introduction about web developer team, who have passion in technology and new challenger. Creating, maintaining and optimizing is the key values of the team.",
+      "languages": ["Remix", "Tailwind"],
+      "url": "https://koffeeaddicted.com/"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+    "data": [
+        {
+            "title": "Language",
+            "items": [
+                "HTML",
+                "CSS",
+                "Tailwinds",
+                "JavaScript",
+                "TypeScript",
+                "NodeJS",
+                "Python"
+            ]
+        },
+        {
+            "title": "Databases",
+            "items": [
+                "MongoDB",
+                "MySQL",
+                "FireBase"
+            ]
+        },
+        {
+            "title": "Frameworks",
+            "items": [
+                "NextJs",
+                "MeteorJs",
+                "Remix"
+            ]
+        },
+        {
+            "title": "Tools",
+            "items": [
+                "Jira",
+                "Git",
+                "UML"
+            ]
+        }
+    ]
+}

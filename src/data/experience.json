@@ -1,0 +1,25 @@
+{ 
+    "data" : [
+        {
+            "position" : "Intern - Android Developer",
+            "timeline": "03/2022 - 04/2022",
+            "location": "HCM City",
+            "company": "VATNOW", 
+            "description": [
+                "Working with Kotlin and collaborating with senior developers to set up a new feature for an application",
+                "Discussing problems with co-workers and presenting a new idea to get a better solution."
+            ]
+        }, 
+        {
+            "position": "Software Engineer",
+            "timeline": "06/2022 - present",
+            "location": "HCM City",
+            "company": "WhammyTech", 
+            "description": [
+                "Collaborating with experience team and approaching new technologies",
+                "Having great opportunity in learning project management",
+                "Working in a professional environment with communicating in English"
+            ]
+        }
+    ]
+}
