@@ -377,11 +377,6 @@ ul li:nth-child(3):hover .contact-menu-icon {
   border: 2px dotted #21e6c1;
   border-radius: 20px;
 }
-
-.stepiconroot: {
-  size: 32;
-}
-
 textarea:focus,
 input:focus {
   outline: none;
