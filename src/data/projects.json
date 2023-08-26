@@ -67,26 +67,14 @@
       "name": "DanDPak factory automation system",
       "img": "https://www.linkpicture.com/q/1687262910542.jpeg",
       "description": "The development of a Factory Automation System, implementing software to ensure smooth and efficient automation flows within the factory environment. The system utilized various technologies, including APIs, sockets, and cron jobs, to optimize production processes and enhance overall factory operations.",
-      "languages": [
-        ".NET",
-        "Stored procedure",
-        "Worker (CronJobs)",
-        "Docker",
-        "CentOS"
-      ],
+      "languages": [".NET", "Stored procedure", "Worker", "CentOS"],
       "url": ""
     },
     {
       "name": "VIMF Binh Duong 2023",
       "img": "https://www.linkpicture.com/q/1687520711513.jpeg",
       "description": "Demonstrating Anthropic's factory automation platform at VIMF Binh Duong 2023. Showcasing capabilities in connectivity, workflows, analytics, and flexible automation for optimizing manufacturing operations.",
-      "languages": [
-        ".NET",
-        "Stored procedure",
-        "Worker (CronJobs)",
-        "Docker",
-        "CentOS"
-      ],
+      "languages": [".NET", "Stored procedure", "Worker", "CentOS"],
       "url": ""
     }
   ]

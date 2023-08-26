@@ -348,10 +348,10 @@ ul li:nth-child(3):hover .contact-menu-icon {
 /* ===================Message card======================*/
 
 .card_message_container {
-  border: 2px solid #21e6c1;
-  background-color: white;
+  border: 2px solid #278ea5;
+  background-color: ADC4CE;
   color: black;
-  box-shadow: 5px 10px 8px #21e6c1;
+  box-shadow: 5px 10px 8px #278ea5;
   animation: bounce 1.5s infinite;
   transition: 0.3s linear;
 }
@@ -361,8 +361,8 @@ ul li:nth-child(3):hover .contact-menu-icon {
 }
 
 .input_message {
-  background-color: white;
-  border: 2px dotted #21e6c1;
+  background-color: ADC4CE;
+  border: 2px dotted #278ea5;
   padding: 10px;
   width: 100%;
   font-size: 20px;
@@ -372,9 +372,9 @@ ul li:nth-child(3):hover .contact-menu-icon {
 .textarea_message {
   height: 70% !important;
   resize: none;
-  background-color: white;
+  background-color: '#ADC4CE';
   font-size: 20px;
-  border: 2px dotted #21e6c1;
+  border: 2px dotted #278ea5;
   border-radius: 20px;
 }
 textarea:focus,

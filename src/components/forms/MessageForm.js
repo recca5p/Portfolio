@@ -1,13 +1,13 @@
-import axios from "axios";
-import { useForm } from "react-hook-form";
-import { useSnackbar } from "notistack";
+import axios from 'axios';
+import { useForm } from 'react-hook-form';
+import { useSnackbar } from 'notistack';
 
-import { IconButton } from "@mui/material";
-import { FaUser, FaPaperPlane } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
+import { IconButton } from '@mui/material';
+import { FaUser, FaPaperPlane } from 'react-icons/fa';
+import { MdEmail } from 'react-icons/md';
 
 const MessageForm = () => {
-  const key = "6178888710:AAFVMgE_jUaJNdpmm3fHMnq9zvKB_czomVo";
+  const key = '6035590951:AAGR5OFQ-VjZp1wTSO-2I93iMWEzkLI7xyw';
   const { register, handleSubmit, reset } = useForm({
     shouldUseNativeValidation: true,
   });
@@ -20,14 +20,14 @@ const MessageForm = () => {
         {},
         {
           params: {
-            chat_id: "-943310780",
+            chat_id: '1021528611',
             text: `name: ${data.fullname}\nemail: ${data.email}\nmessage: ${data.message}`,
           },
-        }
+        },
       )
       .then((response) => {
         reset();
-        enqueueSnackbar("Sent Successfully!", { variant: "success" });
+        enqueueSnackbar('Sent Successfully!', { variant: 'success' });
         return console.log(response);
       })
       .catch((error) => {
@@ -46,8 +46,8 @@ const MessageForm = () => {
           <input
             className="input_message"
             placeholder="Full name"
-            {...register("fullname", {
-              required: "Please enter your full name",
+            {...register('fullname', {
+              required: 'Please enter your full name',
             })}
           />
         </div>
@@ -56,7 +56,7 @@ const MessageForm = () => {
           <input
             className="input_message"
             placeholder="email"
-            {...register("email", { required: "Please enter your email" })}
+            {...register('email', { required: 'Please enter your email' })}
           />
         </div>
       </div>
@@ -64,12 +64,12 @@ const MessageForm = () => {
         <textarea
           className="w-full textarea_message pl-3 mb-8"
           placeholder="Message"
-          {...register("message")}
+          {...register('message')}
         ></textarea>
         <IconButton
           sx={{
-            color: "#21E6C1",
-            borderRadius: "50%",
+            color: '#278EA5',
+            borderRadius: '50%',
           }}
           size="large"
           type="submit"

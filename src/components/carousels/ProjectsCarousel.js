@@ -13,8 +13,7 @@ const ProjectsCarousel = () => {
       {...{
         autoplay: true,
         speed: 500,
-        dots: false,
-        arrows: false,
+        dots: true,
         variableWidth: true,
       }}
     >
