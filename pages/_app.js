@@ -5,8 +5,6 @@ import { PublicLayout } from '@/src/layouts';
 import NextNProgress from 'nextjs-progressbar';
 import { SnackbarProvider } from 'notistack';
 
-export const runtime = 'edge';
-
 export default function App({ Component, pageProps }) {
   return (
     <SnackbarProvider
