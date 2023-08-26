@@ -1,19 +1,19 @@
-import Image from 'next/image';
-import clsx from 'clsx';
+import Image from "next/image";
+import clsx from "clsx";
 
 const ProjectCard = (props) => {
   return (
     <div
       className={clsx(
-        'w-[300px] h-[500px] lg:w-[600px] lg:h-[550px]',
-        'border-2 border-blueTheme-dark rounded-[20px] text-blueTheme-dark mr-[50px]',
+        "w-[300px] h-[500px] lg:w-[600px] lg:h-[550px]",
+        "border-2 border-blueTheme-dark rounded-[20px] text-blueTheme-dark mr-[50px]"
       )}
     >
       <div className="w-full h-full flex flex-col justify-between p-2">
         <div>
           <Image
             src={props.img}
-            className="rounded-[20px]"
+            className="rounded-[20px] max-h-[300px]"
             alt="project_img"
             draggable="false"
             width={600}
@@ -31,8 +31,8 @@ const ProjectCard = (props) => {
                 <div
                   key={i}
                   className={clsx(
-                    'border-dashed border-[1px] border-blueTheme rounded-[4px]',
-                    'text-[15px] font-[SVN-Regular] px-2 text-blueTheme-dark h-fit',
+                    "border-dashed border-[1px] border-blueTheme rounded-[4px]",
+                    "text-[15px] font-[SVN-Regular] px-2 text-blueTheme-dark h-fit"
                   )}
                 >
                   {item}
@@ -44,8 +44,8 @@ const ProjectCard = (props) => {
               target="_blank"
               rel="noreferrer"
               className={clsx(
-                'border-dashed cursor-pointer border-[1px] border-blueTheme hover:bg-blueTheme rounded-[4px]',
-                " text-blueTheme-dark mx-5 px-5 text-[22px] font-['SVN-Regular'] hover:font-['SVN-Bold']",
+                "border-dashed cursor-pointer border-[1px] border-blueTheme hover:bg-blueTheme rounded-[4px]",
+                " text-blueTheme-dark mx-5 px-5 text-[22px] font-['SVN-Regular'] hover:font-['SVN-Bold']"
               )}
             >
               Visit
