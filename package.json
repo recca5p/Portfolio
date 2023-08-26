@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@cloudflare/next-on-pages": "^1.5.1",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
@@ -30,7 +31,8 @@
     "react-hook-form": "^7.43.9",
     "react-icons": "^4.7.1",
     "react-slick": "^0.29.0",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "vercel": "^32.1.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
