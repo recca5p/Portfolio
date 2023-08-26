@@ -8,10 +8,9 @@ const ProfileDetailContainer = () => {
         <div className="flex flex-col lg:flex-row items-center h-full w-full justify-center">
           <Image
             className="w-[200px] sm:w-[400px]"
-            src={'https://www.linkpicture.com/q/eric_boy.png'}
+            src={'https://www.linkpicture.com/q/photo_2023-08-27_02-10-49.jpg'}
             width={200}
             height={200}
-            alt="eric_boy"
           />
           <div className='font-["SVN-LightItalic"] pt-[20px] lg:pt-0 w-[70%] text-[12px] sm:text-[20px] text-[white]'>
             <div className="indent-8 text-justify">

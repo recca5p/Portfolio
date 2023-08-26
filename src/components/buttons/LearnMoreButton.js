@@ -7,7 +7,7 @@ const LearnMoreButton = (props) => {
         <span className="circle" aria-hidden="true">
           <span className="icon arrow"></span>
         </span>
-        <span className="button-text">Learn More</span>
+        <span className="button-text">Get CV</span>
       </button>
     </Link>
   );

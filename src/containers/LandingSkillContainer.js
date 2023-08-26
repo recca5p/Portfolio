@@ -168,9 +168,9 @@ const LandingSkillContainer = () => {
             </div>
           ))}
         </div>
-        <div className="pt-[80px] w-full">
+        {/* <div className="pt-[80px] w-full">
           <SeeDetailButton url="/about" />
-        </div>
+        </div> */}
       </div>
     </div>
   );

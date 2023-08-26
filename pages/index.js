@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>VTP-Portfolio</title>
+        <title>VTP</title>
         <meta
           name="description"
           content="This personal website introduces all the works and information about Vo Tan Phat."
@@ -34,8 +34,9 @@ export default function Home() {
       </Head>
       <LandingMainContainer />
       <LandingSkillContainer />
-      <ProjectsMainContainer />
       <ExperienceMainContainer />
+
+      <ProjectsMainContainer />
       {/* <SendMessagesContainer /> */}
     </>
   );

@@ -7,7 +7,7 @@ const ProjectsMainContainer = () => {
         <span className="text-blueTheme-dark">#</span>Projects
       </div>
       <ProjectsCarousel />
-      <SeeDetailButton url="/projects" />
+      {/* <SeeDetailButton url="/projects" /> */}
     </div>
   );
 };

@@ -11,7 +11,7 @@ const AboutPage = () => {
   return (
     <>
       <Head>
-        <title>VTP-Portfolio | About</title>
+        <title>VTP | About</title>
         <meta
           name="description"
           content="Show more information about me!"

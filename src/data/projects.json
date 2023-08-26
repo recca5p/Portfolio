@@ -31,16 +31,63 @@
     {
       "name": "SharkLien website",
       "img": "https://www.linkpicture.com/q/sharklien.png",
-      "description": "sharklien is a personal website. sharklien is used for introduce the lifestyle of individual, business ecosystem, charity activities and orientation to inspire the community.",
+      "description": "SharkLien is a personal website. Sharklien is used for introduce the lifestyle of individual, business ecosystem, charity activities and orientation to inspire the community.",
       "languages": ["ReactJs", "Bootstrap"],
       "url": "https://sharklien.vn/"
     },
     {
-      "name": "koffeeaddicted.com",
-      "img": "https://www.linkpicture.com/q/koffeeaddicted.png",
-      "description": "Koffee Addicted is a introduction about web developer team, who have passion in technology and new challenger. Creating, maintaining and optimizing is the key values of the team.",
-      "languages": ["Remix", "Tailwind"],
-      "url": "https://koffeeaddicted.com/"
+      "name": "Apollo ATS Portal",
+      "img": "https://www.linkpicture.com/q/Screenshot-2023-08-27-023159.png",
+      "description": "A user-friendly system enabling candidates to submit CVs and applications for employment. Designed the candidate database and implemented application tracking and custom notifications.",
+      "languages": ["Angular", ".NET", "Stored procedure", "CI/CD"],
+      "url": "https://talents.apollo.edu.vn:4443/#/"
+    },
+    {
+      "name": "Apollo Survey",
+      "img": "https://www.linkpicture.com/q/apollo.png",
+      "description": "A versatile survey platform that enables administrators to create surveys for various purposes, primarily targeting parents. The system efficiently collects and stores survey responses in a secure database for analysis and decision-making.",
+      "languages": [".NET Framework MVC", "Stored procedure"],
+      "url": ""
+    },
+    {
+      "name": "Apollo Utility",
+      "img": "https://www.linkpicture.com/q/apollo.png",
+      "description": "An Accounting Department tool for comparing transaction details between the Apollo system and Vietcombank reports.",
+      "languages": ["ReactJs", ".NET", "Entity Framework", "CI/CD"],
+      "url": ""
+    },
+    {
+      "name": "Integrate Payoo service into Apollo Payment system",
+      "img": "https://www.linkpicture.com/q/apollo.png",
+      "description": "The integration of the Payoo service into the Apollo payment system. This enhancement allowed users to seamlessly process payments using Payoo's secure and reliable payment gateway, ensuring a smooth payment experience.",
+      "languages": ["AngularJS", ".NET", "Stored procedure", "RestfulAPIs"],
+      "url": ""
+    },
+    {
+      "name": "DanDPak factory automation system",
+      "img": "https://www.linkpicture.com/q/1687262910542.jpeg",
+      "description": "The development of a Factory Automation System, implementing software to ensure smooth and efficient automation flows within the factory environment. The system utilized various technologies, including APIs, sockets, and cron jobs, to optimize production processes and enhance overall factory operations.",
+      "languages": [
+        ".NET",
+        "Stored procedure",
+        "Worker (CronJobs)",
+        "Docker",
+        "CentOS"
+      ],
+      "url": ""
+    },
+    {
+      "name": "VIMF Binh Duong 2023",
+      "img": "https://www.linkpicture.com/q/1687520711513.jpeg",
+      "description": "Demonstrating Anthropic's factory automation platform at VIMF Binh Duong 2023. Showcasing capabilities in connectivity, workflows, analytics, and flexible automation for optimizing manufacturing operations.",
+      "languages": [
+        ".NET",
+        "Stored procedure",
+        "Worker (CronJobs)",
+        "Docker",
+        "CentOS"
+      ],
+      "url": ""
     }
   ]
 }

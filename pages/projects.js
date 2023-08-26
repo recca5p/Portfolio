@@ -7,7 +7,7 @@ const ProjectsPage = () => {
   return (
     <>
       <Head>
-        <title>VTP-Portfolio | Projects</title>
+        <title>VTP | Projects</title>
         <meta
           name="description"
           content="All the projects was displayed in this website"

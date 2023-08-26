@@ -16,7 +16,7 @@ const LandingMainContainer = () => {
               Fullstack Developer
             </span>
           </div>
-          <LearnMoreButton url="/about" />
+          <LearnMoreButton url="/files/VoTanPhat_CV_v2.pdf" target="_blank" />
         </div>
         <div className="w-full h-full flex items-center">
           <div className="flex items-center w-full gap-5">
@@ -28,15 +28,17 @@ const LandingMainContainer = () => {
       </div>
       <div className="w-[100%] lg:w-[55%] my-[200px] lg:my-[0px] h-full flex justify-center items-center">
         <div className="w-[65%] md:w-[50%] relative">
-          <div className="liquid-shape"></div>
+          {/* <div className="liquid-shape"></div> */}
           <Image
-            src={'https://www.linkpicture.com/q/hoodieMan.png'}
+            src={
+              'https://www.linkpicture.com/q/photo_2023-08-27_02-15-35-removebg-preview_1.png'
+            }
             className="min-w-[200px] sm:min-w-[400px]"
             alt="hoodieMan"
             width={400}
             height={400}
           />
-          <div className="liquid-shape2"></div>
+          {/* <div className="liquid-shape2"></div> */}
         </div>
       </div>
     </div>

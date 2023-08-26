@@ -11,7 +11,7 @@ const Header = () => {
         <Logo />
       </Link>
       <div className="flex gap-12">
-        <Link
+        {/* <Link
           href="/projects"
           className={`menu_style ${
             router.pathname === '/projects' && 'menu_style_active'
@@ -26,7 +26,7 @@ const Header = () => {
           }`}
         >
           About
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
