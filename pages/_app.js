@@ -27,3 +27,5 @@ export default function App({ Component, pageProps }) {
     </SnackbarProvider>
   );
 }
+
+export const runtime = 'edge'; // 'nodejs' (default) | 'edge'
