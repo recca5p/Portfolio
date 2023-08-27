@@ -33,10 +33,10 @@ const LandingMainContainer = () => {
             src={
               'https://www.linkpicture.com/q/photo_2023-08-27_02-15-35-removebg-preview_1.png'
             }
-            className="min-w-[200px] sm:min-w-[400px]"
+            className="min-w-[200px] sm:min-w-[400px] rounded-full"
             alt="hoodieMan"
-            width={400}
-            height={400}
+            width={372}
+            height={372}
           />
           {/* <div className="liquid-shape2"></div> */}
         </div>

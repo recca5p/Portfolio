@@ -33,11 +33,11 @@ const steps = [
   {
     label: 'Apollo education and training organization Vietnam',
     description: [
-      'Provided technical leadership, oversaw the planning and structuring of projects to develop a robust Warehouse Management System (WMS) product. Technologies utilized included .NET Core, NextJS, and Postgresql.',
-      'Collaborated closely with automation engineers to address complex customer issues outside their scope by leveraging Socket or CronJob functionalities.',
-      'Engaged directly with customers to ensure seamless integration of our solutions with their systems, utilizing RESTful APIs or database connections for efficient data exchange',
-      'Took charge of server building and configuration, with a focus on deploying projects on CentOS and implementing CI/CD practices to streamline the deployment process.',
-      'Facilitated effective coordination and communication with outsourced partners for smooth ERP maintenance and handover. The ERP system was developed using Java, ReactJS, and MySQL.',
+      'Successfully integrated third-party payment systems like Vietcombank and Payoo, ensuring seamless and secure payment processing.',
+      'Maintained and supported existing software modules, analyzing business requirements and fixing bugs in legacy code.',
+      'Worked closely with product managers and business analysts to understand software requirements and bridge communication gaps between business and technical teams.',
+      'Improved software quality and system stability by refactoring old code and implementing best practices for maintainability.',
+      'Identified performance bottlenecks and resolved issues to improve overall system speed and scalability.',
       'Was responsible for the maintenance and updates of the company portfolio pages, which were built on the WordPress platform, ensuring optimal functionality and user experience',
     ],
     time: 'June 2022 -  Present',
@@ -57,7 +57,7 @@ const steps = [
     ],
     time: 'June 2022 -  January 2023',
     jobType: 'Full-time',
-    img: 'https://www.linkpicture.com/q/download_74.png',
+    img: 'https://www.linkpicture.com/q/Rozitek.jpg',
     title: 'Software Engineer',
   },
   {
@@ -100,13 +100,15 @@ export default function ExperienceMainContainer() {
             color: '#278EA5',
             '& .MuiStepLabel-label': {
               color: '#278EA5',
+              fontFamily: 'SVN, Arial, sans-serif',
+              fontStyle: 'oblique',
             },
           }}
         >
           {steps.map((step, index) => (
             <Step key={step.label}>
               <StepLabel
-                sx={{ fontFamily: 'SVN, Arial, sans-serif' }}
+                className="font-[SVN-Bold]"
                 icon
                 onClick={() => handleClick(index)}
               >
@@ -117,6 +119,7 @@ export default function ExperienceMainContainer() {
                   <StepContent className="pl-[5%]">
                     <Typography
                       variant="body2"
+                      className="font-[SVN]"
                       sx={{
                         textTransform: 'uppercase',
                         fontSize: 16,
@@ -128,16 +131,17 @@ export default function ExperienceMainContainer() {
                     </Typography>{' '}
                     <Typography
                       variant="h6"
+                      className="font-['SVN-Bold']"
                       sx={{
                         fontSize: 20,
                         fontWeight: 'bold',
-                        fontFamily: 'SVN, Arial, sans-serif',
                       }}
                     >
                       {step.title}
                     </Typography>{' '}
                     <Typography
                       variant="body1"
+                      className="font-[SVN]"
                       sx={{
                         fontStyle: 'italic',
                         color: '#ADC4CE',
@@ -151,10 +155,7 @@ export default function ExperienceMainContainer() {
                     <ul className="list-disc pl-[5%]">
                       {step.description.map((item) => (
                         <li key={item}>
-                          <Typography
-                            className="py-[1%]"
-                            sx={{ fontFamily: 'SVN, Arial, sans-serif' }}
-                          >
+                          <Typography className="py-[1%] font-['SVN-Bold']">
                             {item}
                           </Typography>
                         </li>
@@ -163,11 +164,12 @@ export default function ExperienceMainContainer() {
                   </StepContent>
                 </Box>
                 {index === activeStep && (
-                  <Box className="flex justify-center items-center">
+                  <Box className="flex items-center justify-center">
                     <Image
                       src={steps[imageIndex].img}
                       width={900}
                       height={1600}
+                      alt={steps[imageIndex].img}
                     />
                   </Box>
                 )}

@@ -5,6 +5,10 @@ import {
   FaJava,
   FaGitAlt,
   FaAws,
+  FaInfinity,
+  FaLinux,
+  FaJenkins,
+  FaServicestack,
 } from 'react-icons/fa';
 import {
   TbBrandNextjs,
@@ -20,13 +24,17 @@ import {
   SiPostgresql,
   SiMicrosoftsqlserver,
   SiCsharp,
+  SiKubernetes,
+  SiRedis,
 } from 'react-icons/si';
 import { SeeDetailButton } from '../components';
 import clsx from 'clsx';
 import { RiFlutterFill } from 'react-icons/ri';
-
+import { MdDomain } from 'react-icons/md';
+import { MdOutlinePermIdentity } from 'react-icons/md';
 const LandingSkillContainer = () => {
   const dataRow1 = [
+    ,
     {
       title: 'React (Native)',
       logo: <FaReact />,
@@ -36,7 +44,7 @@ const LandingSkillContainer = () => {
       logo: <TbBrandNextjs />,
     },
     {
-      title: 'Angular',
+      title: 'Angular(JS)',
       logo: <FaAngular />,
     },
     {
@@ -58,8 +66,24 @@ const LandingSkillContainer = () => {
       logo: <SiCsharp />,
     },
     {
-      title: 'Java',
-      logo: <FaJava />,
+      title: 'Entity Framework',
+      logo: <MdOutlinePermIdentity />,
+    },
+    {
+      title: 'RabbitMQ',
+      logo: <SiRabbitmq />,
+    },
+    {
+      title: 'Redis',
+      logo: <SiRedis />,
+    },
+    {
+      title: 'Microservices',
+      logo: <FaServicestack />,
+    },
+    {
+      title: 'DDD',
+      logo: <MdDomain />,
     },
   ];
   const dataRow3 = [
@@ -97,6 +121,22 @@ const LandingSkillContainer = () => {
       title: 'AWS',
       logo: <FaAws />,
     },
+    {
+      title: 'CI/CD',
+      logo: <FaInfinity />,
+    },
+    {
+      title: 'Kubernetes',
+      logo: <SiKubernetes />,
+    },
+    {
+      title: 'Jenkins',
+      logo: <FaJenkins />,
+    },
+    {
+      title: 'Linux',
+      logo: <FaLinux />,
+    },
   ];
   return (
     <div className="w-full h-fit py-4 text-[20px] sm:text-[30px]">
@@ -104,7 +144,7 @@ const LandingSkillContainer = () => {
         <span className="text-blueTheme-dark">#</span>Skills
       </div>
       <div className="w-full h-full flex flex-col justify-center items-center font-['SVN-Regular'] py-[70px]">
-        <div className="w-full flex flex-col sm:flex-row gap-4">
+        <div className="flex flex-col w-full gap-4 sm:flex-row">
           {dataRow1.map((item, i) => (
             <div
               key={i}
@@ -120,7 +160,7 @@ const LandingSkillContainer = () => {
             </div>
           ))}
         </div>
-        <div className="w-full hidden sm:flex flex-col sm:flex-row gap-4 pt-4">
+        <div className="flex-col hidden w-full gap-4 pt-4 sm:flex sm:flex-row">
           {dataRow2.map((item, i) => (
             <div
               key={i}
@@ -136,7 +176,7 @@ const LandingSkillContainer = () => {
             </div>
           ))}
         </div>
-        <div className="w-full hidden sm:flex flex-col sm:flex-row gap-4 pt-4">
+        <div className="flex-col hidden w-full gap-4 pt-4 sm:flex sm:flex-row">
           {dataRow3.map((item, i) => (
             <div
               key={i}
@@ -152,7 +192,7 @@ const LandingSkillContainer = () => {
             </div>
           ))}
         </div>
-        <div className="w-full hidden sm:flex flex-col sm:flex-row gap-4 pt-4">
+        <div className="flex-col hidden w-full gap-4 pt-4 sm:flex sm:flex-row">
           {dataRow4.map((item, i) => (
             <div
               key={i}

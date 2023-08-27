@@ -15,10 +15,24 @@
       "url": "https://vtpdemo.azurewebsites.net/"
     },
     {
+      "name": "Sacombank mWork",
+      "img": "https://www.linkpicture.com/q/unnamed_45.png",
+      "description": "mWork is an internal task management platform that empowers employees to create, assign, and track tasks. The mobile and web apps connect staff across departments, enabling seamless collaboration and efficient completion of work. mWork streamlines communication between team members, promoting productivity.",
+      "languages": ["React Native", "ABP (.NET)", "Stored procedure", "DDD"],
+      "url": ""
+    },
+    {
       "name": "Apollo Ticket",
       "img": "https://www.linkpicture.com/q/apollo.png",
       "description": "An internal support system that empowers employees to create tickets for assistance from back-office personnel. The platform streamlines communication and issue resolution between various departments, fostering a more efficient and collaborative work environment.",
       "languages": ["Angular", ".NET", "Stored procedure"],
+      "url": ""
+    },
+    {
+      "name": "DanDPak factory automation system",
+      "img": "https://www.linkpicture.com/q/1687262910542.jpeg",
+      "description": "The development of a Factory Automation System, implementing software to ensure smooth and efficient automation flows within the factory environment. The system utilized various technologies, including APIs, sockets, and cron jobs, to optimize production processes and enhance overall factory operations.",
+      "languages": [".NET", "Stored procedure", "Worker", "CentOS"],
       "url": ""
     },
     {
@@ -61,13 +75,6 @@
       "img": "https://www.linkpicture.com/q/apollo.png",
       "description": "The integration of the Payoo service into the Apollo payment system. This enhancement allowed users to seamlessly process payments using Payoo's secure and reliable payment gateway, ensuring a smooth payment experience.",
       "languages": ["AngularJS", ".NET", "Stored procedure", "RestfulAPIs"],
-      "url": ""
-    },
-    {
-      "name": "DanDPak factory automation system",
-      "img": "https://www.linkpicture.com/q/1687262910542.jpeg",
-      "description": "The development of a Factory Automation System, implementing software to ensure smooth and efficient automation flows within the factory environment. The system utilized various technologies, including APIs, sockets, and cron jobs, to optimize production processes and enhance overall factory operations.",
-      "languages": [".NET", "Stored procedure", "Worker", "CentOS"],
       "url": ""
     },
     {
