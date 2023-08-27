@@ -25,11 +25,9 @@ export default function Home() {
         />
         <meta
           property="og:image"
-          content="https://www.linkpicture.com/q/introduce_pic_1.png"
+          content="https://www.linkpicture.com/q/photo_2023-08-27_02-15-35-removebg-preview_1.png"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta property="og:description" content="Copyright by Eric Dang" />
-
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <LandingMainContainer />
